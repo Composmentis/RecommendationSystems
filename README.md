@@ -6,14 +6,16 @@ Image based recommendations are suitable for fashion, apperals related product. 
 
 It involves following three business process steps
 
->> Identifying visual Preference of the user
->> Find list of products which are visually very close to user preference
->> Recommend products from aobve step
+ a) Identifying visual Preference of the user
+ b) Find list of products which are visually very close to user preference
+ c) Recommend products from aobve step
 
 Above steps could be achieved using following technical steps
 
->>> Gather all the images of the product in the catalog
->>> Pre-process and clean the data
->>> Load pre-trained CNN model (if pre trained model does not work then we can use transform learning options of pre trained model and train with our own data or build new a CNN model)
->>> Pass all the processed images of the products and perform feature extraction. Remember CNN has three important block as they are scan and create an representation of image (Convolution and pooling layer), develop genralize understanding of the image(Fully connected layer), Classify image. Here we do not need to classify the image. So we will extract vector representationof image after fully connected layer. And store it (extracted feature of all product images)in in external disk. This can be done offline
->>>Let's assume user visits PDP(product detail page) of the ecommerce site. Then the main image of the product 
+ a) Gather all the images of the product in the catalog
+ b) Pre-process and clean the data
+ c) Load pre-trained CNN model (if pre trained model does not work then we can use transform learning options of pre trained model and train with our own data or build new a CNN model)
+ d) Pass all the processed images of the products and perform feature extraction. Remember CNN has three important block as they are scan and create an representation of image (Convolution and pooling layer), develop genralize understanding of the image(Fully connected layer), Classify image. Here we do not need to classify the image. So we will extract vector representationof image after fully connected layer. And store it (extracted feature of all product images)in in external disk. This can be done offline
+e) Let's assume user visits PDP(product detail page) of the ecommerce site. Then the main image of the product is taken and extracted feature like above step
+f) Now use K nearest Neighbor of Sklearn to find nearest neigbor for image of (step e) from all the images of the catlog (step d). Number of recommendation will be K value
+g) Present visually similar product to user.
