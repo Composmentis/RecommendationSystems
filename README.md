@@ -18,7 +18,7 @@ Above steps could be achieved using following technical steps
  
  Refer slide 6 and 7 in Machine Learning Based Recommendation System.pptx
  
- 3) Extended features of the Recommendation,
+ 3) Extended features of the Recommendation
  </ul>
  <li>Visually similar product recommendation Can be extended further. For example user can take an image of the competitor product and search in ecommerce site. This way it could be further extended for image based search</li><li>By including User profile data and Product metadata with collaborative filtering recommendation can be personalized further</li>
 
