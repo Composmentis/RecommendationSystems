@@ -16,7 +16,7 @@ Above steps could be achieved using following technical steps
  
  2) Behaviour Based Recommendation
  
- Refer slide 6 and 7 in Machine Learning Based Recommendation System.pptx. The solution is based on Tensorrec(Deep Learning) and has included user profile information, product meta data  as user fetaure and product feture.
+ Refer slide 6 and 7 in Machine Learning Based Recommendation System.pptx. The solution is based on hybrid collaborative filtering as it has included user profile information, product meta data as user fetaure and product feture along with user behaviour data
  
  3) Extended features of the Recommendation
  </ul>
