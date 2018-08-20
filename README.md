@@ -16,9 +16,9 @@ Above steps could be achieved using following technical steps
  
  2) Behaviour Based Recommendation
  
- Refer slide 6 and 7 in Machine Learning Based Recommendation System.pptx
+ Refer slide 6 and 7 in Machine Learning Based Recommendation System.pptx. The solution is based on Tensorrec(Deep Learning) and has included user profile information, product meta data  as user fetaure and product feture.
  
  3) Extended features of the Recommendation
  </ul>
- <li>Visually similar product recommendation Can be extended further. For example user can take an image of the competitor product and search in ecommerce site. This way it could be further extended for image based search</li><li>By including User profile data and Product metadata with collaborative filtering recommendation can be personalized further</li>
+ <li>Visually similar product recommendation Can be extended further. For example user can take an image of the competitor product and search in ecommerce site. This way it could be further extended for image based search</li>
 
